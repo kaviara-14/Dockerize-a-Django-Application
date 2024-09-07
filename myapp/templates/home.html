@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Welcome to My Django Application!</h1>
+        <p>This is a simple application built using Django. Below is a button to demonstrate some interactivity.</p>
+        <button onclick="alert('Hello, welcome!')">Click Me</button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About This Application</h2>
+        <p>This Django application serves as a basic web framework, allowing you to quickly build web applications with minimal setup. It integrates easily with databases and can be extended with various packages to support everything from authentication to APIs.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Fast and Scalable</li>
+            <li>Easy Database Integration</li>
+            <li>Modular and Customizable</li>
+            <li>Security Features Built-in</li>
+        </ul>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>We build responsive and scalable web applications using modern technologies.</p>
+        </div>
+        <div class="service-item">
+            <h3>API Development</h3>
+            <p>Our team can design and deploy powerful, secure APIs for your business needs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cloud Integration</h3>
+            <p>We help integrate your applications with the cloud to enhance flexibility and scalability.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            "This is the best Django application I have used! It’s fast, secure, and scalable."
+            <br>- John Doe
+        </blockquote>
+        <blockquote>
+            "Amazing work! This app meets all our business needs and integrates perfectly with our existing systems."
+            <br>- Jane Smith
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Django App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
