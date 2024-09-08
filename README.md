@@ -19,3 +19,4 @@ Your Django application will be running at
     
     http://localhost:8080
 
+![Screenshot 2024-09-07 110421](https://github.com/user-attachments/assets/056a571a-a9eb-4038-95fd-4980c530779d)
